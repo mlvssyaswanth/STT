@@ -19,8 +19,8 @@ Just click the microphone button, start speaking, and see your words transcribed
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/SST.git
-   cd SST
+   git clone https://github.com/mlvssyaswanth/STT.git
+   cd STT
    ```
 
 2. **Open `index.html` in your browser.**
