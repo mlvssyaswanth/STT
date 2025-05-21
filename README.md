@@ -31,7 +31,7 @@ Just click the microphone button, start speaking, and see your words transcribed
 ## Project Structure
 
 ```
-speech-to-text/
+STT/
 ├── index.html
 ├── style.css
 ├── script.js
