@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text Transcriber</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-avatar" aria-hidden="true">
+            <i class="fa-solid fa-wave-square"></i>
+        </div>
+        <h1 class="main-title">Speech to Text Transcriber</h1>
+        <p class="subtitle">Click the microphone and start speaking.<br>Your words will appear below.</p>
+        <div class="speaker">
+            <div class="action-indicator">
+                <span id="action" class="action"></span>
+                <span id="mic-indicator" class="mic-indicator"></span>
+            </div>
+            <button class="button" onclick="runSpeechRecog()" aria-label="Start Speech Recognition" title="Start listening">
+                <span class="button_icon"><i class="fa-solid fa-microphone"></i></span>
+            </button>
+            <h3 id="output" class="hide" aria-live="polite"></h3>
+            <button class="clear-btn" onclick="clearOutput()" aria-label="Clear Output" title="Clear transcript">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+    <footer class="footer">
+        <span>Made with <span style="color:#ff4655;">&#10084;</span> Speech Recognition API</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
