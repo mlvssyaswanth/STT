@@ -11,10 +11,6 @@ Just click the microphone button, start speaking, and see your words transcribed
 - ❌ **Clear Output**: Easily clear the transcript with a single click.
 - 📱 **Responsive**: Works beautifully on desktop and mobile devices.
 
-## Demo
-
-![Screenshot](screenshot.png) <!-- Add a screenshot if available -->
-
 ## Getting Started
 
 1. **Clone this repository:**
