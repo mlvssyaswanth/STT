@@ -39,7 +39,4 @@ STT/
 - UI inspired by modern glassmorphism and neumorphism trends.
 - Microphone icon from [Font Awesome](https://fontawesome.com/).
 - Built with ❤️ using vanilla HTML, CSS, and JavaScript.
-
-## License
-
-[MIT](LICENSE)
+  
